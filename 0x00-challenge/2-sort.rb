@@ -16,7 +16,7 @@ ARGV.each do |arg|
     is_inserted = false
     i = 0
     l = result.size
-    puts i_arg
+    #puts i_arg
     while !is_inserted && i < l do
         if result[i] < i_arg
             i += 1
